@@ -1,0 +1,66 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-alc-cta-banner {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+.wp-block-alc-cta-banner {
+  padding: 2rem;
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.1rem;
+    max-width: 600px;
+  }
+
+  a.wp-block-button__link {
+    background-color: #fff;
+    color: #1e40af;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      background-color: #cbd5e1;
+      color: #1e3a8a;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 3px #93c5fd;
+    }
+  }
+
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
