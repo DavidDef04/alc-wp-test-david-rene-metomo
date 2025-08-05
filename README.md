@@ -14,7 +14,7 @@ Stack utilisée : WordPress, Astro.js, React, JavaScript/TypeScript, IA.
 - Pipeline CI/CD configuré (Railway) → Déclenchement automatique sur chaque push vers `main`
 - URL publique : `https://alc-wp-test-david-rene-metomo-production.up.railway.app/`
 - Accès temporaire :  
-  - **Identifiant admin** : `recrutement@alc.test`  
+  - **Identifiant admin** : `//`  
   - **Mot de passe** : //
 
 ---
