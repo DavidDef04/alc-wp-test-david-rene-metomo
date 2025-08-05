@@ -10,12 +10,12 @@ Stack utilisée : WordPress, Astro.js, React, JavaScript/TypeScript, IA.
 ### 0️ Contraintes & environnement
 
 - Déploiement choisi : **Railway (Docker)**
-- Dépôt GitHub public : [`alc-wp-test-david-rene-metomo`](https://github.com/DavidDef04/alc-wp-test-david-rene-metomo)
+- Dépôt GitHub public : [`alc-wp-test-david-rene-metomo`]
 - Pipeline CI/CD configuré (Railway) → Déclenchement automatique sur chaque push vers `main`
-- URL publique : `https://project-name.up.railway.app` *(remplacer par l'URL réelle)*
+- URL publique : `https://alc-wp-test-david-rene-metomo-production.up.railway.app/`
 - Accès temporaire :  
   - **Identifiant admin** : `recrutement@alc.test`  
-  - **Mot de passe** : fourni séparément ou généré à la demande
+  - **Mot de passe** : //
 
 ---
 
@@ -59,7 +59,6 @@ Stack utilisée : WordPress, Astro.js, React, JavaScript/TypeScript, IA.
 - Trigger sur chaque push vers `main`
 - `.env` non versionné (exclu via `.gitignore`)
 - Variables d’environnement injectées via Railway UI
-- Lien de deployement sur Railway : alc-wp-test-david-rene-metomo-production.up.railway.app
 
 ---
 
